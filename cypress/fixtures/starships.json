@@ -6,24 +6,24 @@
           "id": "1",
           "name": "Test title",
           "starshipClass": "Test subtitle",
-          "costInCredits": 100,
-          "passengers": "100",
-          "maxAtmospheringSpeed": 100,
+          "costInCredits": 1,
+          "passengers": "2",
+          "maxAtmospheringSpeed": 3,
           "filmConnection": {
-            "totalCount": 100,
+            "totalCount": 4,
             "__typename": "StarshipFilmsConnection"
           },
           "__typename": "Starship"
         },
         {
           "id": "2",
-          "name": "Test",
+          "name": "Test title",
           "starshipClass": "Test subtitle",
-          "costInCredits": 100,
-          "passengers": "100",
-          "maxAtmospheringSpeed": 100,
+          "costInCredits": 1,
+          "passengers": "2",
+          "maxAtmospheringSpeed": 3,
           "filmConnection": {
-            "totalCount": 100,
+            "totalCount": 4,
             "__typename": "StarshipFilmsConnection"
           },
           "__typename": "Starship"

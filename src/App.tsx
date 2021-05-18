@@ -5,10 +5,11 @@ import Game from "./components/Game";
 
 const H1 = styled.h1`
   text-align: center;
+  color: white;
 `;
 
 const Main = styled.main`
-  padding: 8px;
+  padding: 16px;
 `;
 
 function App() {
