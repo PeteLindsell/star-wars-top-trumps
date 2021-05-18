@@ -10,4 +10,9 @@ describe("Star wars toptrumps", () => {
   it("displays title", function () {
     cy.contains("h1", "Star Wars Top Trumps").should("be.visible");
   });
+
+  it("displays first card", function () {
+    cy.contains("h2", "Test title").should("be.visible");
+    cy.contains("h3", "Test subtitle").should("be.visible");
+  });
 });
