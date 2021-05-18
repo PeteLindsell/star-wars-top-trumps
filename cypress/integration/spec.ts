@@ -17,5 +17,9 @@ describe("Star wars toptrumps", () => {
   it("displays first card", function () {
     cy.contains("h2", "Test title").should("be.visible");
     cy.contains("h3", "Test subtitle").should("be.visible");
+    cy.contains("button", "Max Atmosphering Speed: 100").should("be.visible");
+    cy.contains("button", "Cost in credits: 100").should("be.visible");
+    cy.contains("button", "Number of passengers: 100").should("be.visible");
+    cy.contains("button", "Fils featured in: 100").should("be.visible");
   });
 });
