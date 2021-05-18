@@ -4,6 +4,9 @@
 
 describe("Star wars toptrumps", () => {
   beforeEach(() => {
+    cy.intercept("POST", "https://connectr-swapi.herokuapp.com/", {
+      fixture: "starships",
+    });
     cy.visit("/");
   });
 

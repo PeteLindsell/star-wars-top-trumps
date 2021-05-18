@@ -1,0 +1,35 @@
+{
+  "data": {
+    "allStarships": {
+      "starships": [
+        {
+          "id": "1",
+          "name": "Test title",
+          "starshipClass": "Test subtitle",
+          "costInCredits": 100,
+          "passengers": "100",
+          "maxAtmospheringSpeed": 100,
+          "filmConnection": {
+            "totalCount": 100,
+            "__typename": "StarshipFilmsConnection"
+          },
+          "__typename": "Starship"
+        },
+        {
+          "id": "2",
+          "name": "Test",
+          "starshipClass": "Test subtitle",
+          "costInCredits": 100,
+          "passengers": "100",
+          "maxAtmospheringSpeed": 100,
+          "filmConnection": {
+            "totalCount": 100,
+            "__typename": "StarshipFilmsConnection"
+          },
+          "__typename": "Starship"
+        }
+      ],
+      "__typename": "StarshipsConnection"
+    }
+  }
+}
